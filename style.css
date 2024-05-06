@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #228B22;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #008000;
+}
+
+h1 {
+    text-align: center;
+    background-color: #008000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.carros-em-destaque, .categorias, .busca, .carros {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.destaque {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+

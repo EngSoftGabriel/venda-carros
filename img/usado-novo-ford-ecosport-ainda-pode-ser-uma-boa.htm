@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta name="fragment" content="!" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>WM1 - O canal de notícias automotivas da Webmotors</title>
+  <meta name="description"
+    content="Veja todas as notícias sobre lançamentos, testes e avaliações de carros e motos. Acesse e saiba tudo que está acontecendo no mercado automotivo mundial :)"
+    data-react-helmet="true" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="fb:pages" content="247591776879593" />
+  <meta property="fb:app_id" content="247591776879593" />
+  <link rel="apple-touch-icon" sizes="180x180" rel="preconnect"
+    href="https://www.webmotors.com.br/favicons/apple-touch-icon.png" />
+  <link rel="mask-icon" rel="preconnect" href="https://www.webmotors.com.br/favicons/safari-pinned-tab.svg"
+    color="#ff0000" />
+  <link rel="icon" type="image/png" sizes="192x192" rel="preconnect"
+    href="https://www.webmotors.com.br/favicons/favicon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="96x96" rel="preconnect"
+    href="https://www.webmotors.com.br/favicons/favicon-96x96.png" />
+  <link rel="shortcut icon" rel="preconnect" href="https://www.webmotors.com.br/favicon.ico" />
+  <style>
+    .scrollPadding {
+      padding-top: 60px !important;
+    }
+
+    @media screen and (max-width: 768px)  {
+      .scrollPadding {
+        padding-top: 110px !important;
+      }
+    }
+  </style>
+<link href="https://www.webmotors.com.br/wm1/assets/main.6a4dcdef98918e12a9a3.css" rel="stylesheet"></head>
+
+<body>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+  <!-- Begin comScore Tag -->
+  <script>
+    function isAppWm1() {
+      const queryParams = new URLSearchParams(location.search)
+      const view = queryParams.get('view_app')
+
+      return view === 'true'
+    }
+  </script>
+
+  <script id="jquery" src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+    crossorigin="anonymous"></script>
+
+  <script id="comscore">
+    var _comscore = _comscore || []
+    _comscore.push({ c1: '2', c2: '14194541' })
+      ; (function () {
+        var s = document.createElement('script'),
+          el = document.getElementsByTagName('script')[0]
+        s.async = true
+        s.src =
+          (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') +
+          '.scorecardresearch.com/beacon.js'
+        el.parentNode.insertBefore(s, el)
+      })()
+  </script>
+
+  <script>
+      ; (function () {
+        function isMobile() {
+          return /iPhone|Mobile|Android|BlackBerry/.test(navigator.userAgent)
+        }
+        function r7Trigger(tg, sz, dp, dc) {
+          if(tg !== null && typeof tg === "object" && sz !== "" && typeof sz === "object" && dp != "" && dc != ""){var wd = (function(){var ie = /msie/i.test(navigator.userAgent), ieBox = ie && (document.compatMode == null || document.compatMode == "BackCompat"), canvasEl = ieBox ? document.body : document.documentElement; return window.innerWidth || canvasEl.clientWidth; })(), ok = false, tm = []; if(sz.length > 0){for (var i = 0; i < sz.length; i++) {if(sz[i].length !== undefined){sz[i][0] <= wd ? tm.push(sz[i]) : ""; } else if(sz[i] <= wd){tm.push(sz); break; } } if(tm.length > 0){sz = tm; ok = true; } } if(ok){var iframe = document.createElement('iframe'), ss = function(s){var y = "["; s.forEach(function(a,b,c){if(typeof(a) === "object"){y += (a == "fluid" ? "'fluid'" : '['+a.join(",")+']') + (s.length -1 == b ? '' : ','); } else{y+= y == "[" ? '['+c.join(",")+']' : "";} }); return y+"]"; }; iframe.id = "ad-r7-"+dp; iframe.width = '0'; iframe.height = '0'; iframe.frameBorder = "no"; iframe.scrolling = "no"; iframe.marginWidth = "0"; iframe.marginHeight = "0"; iframe.vspace = "0"; iframe.hspace = "0"; iframe.src="about:blank"; tg.appendChild(iframe); var iframeDoc = iframe.contentWindow ? iframe.contentWindow.document : ((iframe.contentDocument) ? iframe.contentDocument.document : iframe.contentDocument); iframeDoc.open(); iframeDoc.write('<head></head><body style="text-align:center"><script data-sizes="'+ss(sz)+'" data-vendor="r7.com" data-pos="'+dp+'" data-context="'+dc+'" src="https://sc.r7.com/r7/js/adPartner.min.js"><\/script><script>window.googletag = window.googletag || {cmd: []}; googletag.cmd.push(function() {googletag.pubads().addEventListener("slotRenderEnded", function(event) {if(!event.isEmpty && event.slotContentChanged){window.frameElement.width = event.size[0]; window.frameElement.height = event.size[1]; } }); });<\/script><\/body>'); iframeDoc.close(); } }
+        }
+      })()
+  </script>
+
+  <script>
+    if (!isAppWm1()) {
+      var script = document.createElement('script')
+      script.src = 'https://webmotors.cdn.fuseplatform.net//2000/fuse.js'
+      script.async = true
+      document.head.appendChild(script)
+    }
+  </script>
+
+  <noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1" alt="noscript" /></noscript>
+  <!-- End comScore Tag -->
+  <div id="app"></div>
+
+<script type="text/javascript" src="https://www.webmotors.com.br/wm1/assets/main.6a4dcdef98918e12a9a3.js"></script></body>
+</html>

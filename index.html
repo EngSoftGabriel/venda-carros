@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Carros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <header>
+        <h1>Loja de Carros</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carros-em-destaque">
+            <h2>Carros em Destaque</h2>
+            <img class="destaque" src="img/Ford-EcoSport-Destaque.jpg" alt="">        
+            </section>
+
+        <section class="categorias">
+            <h2>Categorias</h2>
+            </section>
+
+        <section class="busca">
+            <h2>Pesquisa de Carros</h2>
+            <form action="#">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca">
+
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo">
+
+                <label for="ano">Ano:</label>
+                <input type="number" id="ano" name="ano">
+
+                <label for="preco-minimo">Preço Mínimo:</label>
+                <input type="number" id="preco-minimo" name="preco-minimo">
+
+                <label for="preco-maximo">Preço Máximo:</label>
+                <input type="number" id="preco-maximo" name="preco-maximo">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="carros">
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Carros</p>
+        <ul>
+            <li><a href="#">Redes Sociais</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Políticas de Privacidade</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
